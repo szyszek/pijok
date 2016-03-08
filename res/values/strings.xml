@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pijok</string>
+    <string name="gender.female">female</string>
+    <string name="gender.male">male</string>
+    <string name="age">age</string>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+    <string name="gender">gender</string>
+    <string name="dimensions.title">About you</string>
+    <string name="button.complete">complete</string>
+</resources>

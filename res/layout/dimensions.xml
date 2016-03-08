@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/dimensions.title"
+            android:id="@+id/textView4" android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:layout_gravity="center"/>
+    <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender.male"
+                android:checked="true" />
+        <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender.female" />
+    </RadioGroup>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weight"
+              android:id="@+id/weightText"/>
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weightSeekBar" android:max="50"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height"
+              android:id="@+id/heightText"/>
+    <SeekBar android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/heightSeekBar"
+             android:max="50"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/age"
+              android:id="@+id/ageText"/>
+    <SeekBar android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/ageSeekBar"
+             android:max="62"/>
+</LinearLayout>
+
