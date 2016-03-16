@@ -14,8 +14,6 @@ import com.bj.pijok.activities.AddEntryActivity;
 
 public class StatusFragment extends Fragment {
 
-    private
-
     private Button openAddDrinkButton;
 
     private Activity activity;

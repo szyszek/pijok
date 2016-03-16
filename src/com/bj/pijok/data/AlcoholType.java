@@ -1,6 +1,10 @@
 package com.bj.pijok.data;
 
-public class AlcoholType {
+import java.io.Serializable;
+
+public class AlcoholType implements Serializable {
+    static final long serialVersionUID = 1L;
+
     private String image;
     private int volume;
     private int alcoholPercentage;
